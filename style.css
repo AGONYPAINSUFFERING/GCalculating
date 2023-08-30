@@ -1,0 +1,126 @@
+.grid1{
+    width: 350px;
+    height: 250px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid2{
+    margin-top: 5px;
+    width: 350px;
+    column-gap: 5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.btn{
+    width: 80px;
+    height: 50px;
+    background-color: rgb(55, 55, 55);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.sign{
+    font-size: larger;
+    width: 80px;
+    height: 50px;
+    background-color: rgb(255, 166, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+body{
+    background-color: black;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button:hover{
+    cursor: pointer;
+}
+.eq-btn{
+    background-color:rgb(0, 208, 255);
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    width:100px;
+    height: 50px;
+}
+.main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#zero{
+    width: 90px;
+}
+h1{
+    margin-left: 80px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+}
+.inp{
+    background-color: transparent;
+    border-color: white;
+    border-width: 1px;
+    height: 100px;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+@media only screen and (min-width:320px) and (max-width:375px) {
+    .body{
+        margin: 10px;
+        overflow-x: hidden;
+    }
+    .inp{
+        width:270px;
+        margin-left: 28px;
+    }
+    .eq-btn{
+        background-color:rgb(0, 208, 255);
+        font-size: large;
+        border: none;
+        border-radius: 5px;
+        width:60px;
+        height: 50px;
+    }
+    .sign{
+        font-size: larger;
+        width: 60px;
+        height: 50px;
+        background-color: rgb(255, 166, 0);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+    }
+    .btn{
+        width: 60px;
+        height: 50px;
+        background-color: rgb(55, 55, 55);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+    }
+    .grid1{
+        padding-left: 20px;
+        width: 290px;
+        height: 250px;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .grid2{
+        padding-left: 12px;
+        margin: 5px;
+        width: 320px;
+        column-gap: 5px;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
