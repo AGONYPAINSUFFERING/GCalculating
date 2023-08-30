@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@600&family=Barlow+Condensed:wght@600&family=Kanit:wght@500&family=Montserrat:wght@600&family=Oswald:wght@500&family=Playfair+Display:wght@600&family=Roboto+Serif:wght@300&family=Roboto:ital,wght@0,100;0,700;0,900;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+      <div class="main">
+      <h1>Calculator</h1>
+      <textarea cols="30" rows="10" class="inp" id="inp"></textarea>
+    <div class="grid1">
+        <div>
+        <button class="btn" onclick="clearInput()">C</button>
+        </div>
+      <div>
+            <button class="sign" id="modulo" onclick="modulo()">%</button>
+    </div>
+      <div>
+            <button class="sign" onclick="sq()">x&#178;</button>
+    </div>
+      <div>
+            <button class="btn" style="background-color: black;" onclick="clearonce()"><img width="30" height="30" src="img1.png" alt="clear-symbol--v2"/></button>
+    </div>
+      <div>
+            <button class="btn" onclick="sev()">7</button>
+    </div>
+      <div>
+            <button class="btn" onclick="eight()">8</button>
+    </div>
+      <div>
+            <button class="btn" onclick="nine()">9</button>
+    </div>
+      <div>
+            <button class="sign" id="multi" onclick="multiplication()">x</button>
+    </div>
+      <div>
+            <button class="btn" onclick="four()">4</button>
+    </div>
+      <div>
+            <button class="btn" onclick="five()">5</button>
+    </div>
+      <div>
+            <button class="btn" onclick="six()">6</button>
+    </div>
+      <div>
+            <button class="sign" id="div" onclick="division()">&#247;</button>
+    </div>
+      <div>
+            <button class="btn" onclick="one()">1</button>
+    </div>
+      <div>
+            <button class="btn" onclick="two()">2</button>
+    </div>
+      <div>
+            <button class="btn" onclick="three()">3</button>
+    </div>
+      <div>
+            <button class="sign" id="sub" onclick="subtraction()">-</button>
+    </div>
+</div>
+<div>
+    <div class="grid2">
+      <div>
+            <button style="width: 90px;" class="sign" id="add" onclick="addition()">+</button>
+    </div>
+    <div>
+        <button class="btn" id="zero" onclick="zero()">0</button>
+</div>
+      <div style="background-color:rgb(0, 208, 255); height: 50px;width: 90px; border-radius: 8px; clear: d;">
+            <button class="eq-btn" id="ans">=</button>
+    </div>
+    </div>
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
